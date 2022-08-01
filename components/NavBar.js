@@ -10,7 +10,7 @@ export default function NavBar() {
         <a>Home</a>
       </Link>
       <Link href="/about">
-        <a>About Me</a>
+        <a>About</a>
       </Link>
     </nav>
   );
