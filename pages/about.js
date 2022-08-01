@@ -1,3 +1,10 @@
+import NavBar from "../components/NavBar";
+
 export default function test() {
-  return "about me";
+  return (
+    <>
+      <NavBar />
+      <h1>about me</h1>
+    </>
+  );
 }
