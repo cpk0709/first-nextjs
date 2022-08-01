@@ -7,23 +7,10 @@ export default function NavBar() {
   return (
     <nav>
       <Link href="/">
-        <a
-          className={`${styles.link} ${
-            router.pathname === "/" ? styles.active : ""
-          }`}
-        >
-          Home
-        </a>
+        <a>Home</a>
       </Link>
       <Link href="/about">
-        <a
-          className={[
-            styles.link,
-            router.pathname === "/about" ? styles.active : "",
-          ].join(" ")}
-        >
-          About
-        </a>
+        <a>About</a>
       </Link>
     </nav>
   );
